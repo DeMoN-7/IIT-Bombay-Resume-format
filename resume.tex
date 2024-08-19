@@ -1,0 +1,107 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Name} \\
+\indent Email-id : \textbf{\url{email ID}} \\
+\indent Mobile No.: \textbf{Mobile number}, \ \\
+\indent \textbf{\url{https://github.com/DeMoN-7}}\\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \rule{6.8in}{0.4pt}\\
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} }
+\noindent \textbf{Year} & \textbf{Degree/Exam} & \textbf{Institute} & \textbf{GPA/Marks(\%)}\\Aug, 2020 - Present & B.TECH in Computer Science & Graphic Era Hill University Dehradun & 8.01 CGPA \\
+2019 & 12^{th},\ C.B.S.E &  English Medium School & 74.6 \% \\
+2017 & C.B.S.E &  Public School & 83.6 \%\\
+
+\end{tabular}
+\indent \rule{6.8in}{0.4pt}
+%\end{center}
+%\end{table}
+\\
+
+\resheading{\textbf{PROJECTS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.5em}
+
+\item \textbf{Tomato Leaf Detection Using Multiple Algorithm} (Jan, 2024) : Developed a tomato leaf detection system employing multiple algorithms. Utilized image processing techniques such as edge detection, contour analysis, and machine learning algorithms to accurately identify and segment tomato leaves from images. Contributed to agricultural automation and pest management solutions.
+\item \textbf{Amazon Clone} (Aug, 2023) : Designed and developed an amazon.com homepage using HTML and CSS. 
+\item \textbf{Bubble Game} (Aug, 2023) : Designed and developed a bubble pop game using HTML,CSS and JavaScript. 
+\item \textbf{Weather Forecasting App} (May, 2023) : Designed and developed an android app using java which gives the weather forecast fetched from API. 
+
+\item \textbf{Full Stack Chatting App} (October, 2023) : Designed and developed a chatting  using MERN stack with functionality of real-time chatting using Socket implementing Google authentication for secure user login . 
+ 
+
+\item \textbf{Face Recognition based attendance system using AI,ML} (Sept, 2022) : Implemented AI and ML algorithms to develop a robust face recognition attendance system. Utilized deep learning techniques to achieve high accuracy in recognizing and logging attendance data. Contributed to streamlining administrative processes and enhancing efficiency through innovative technology solutions.
+
+
+\item \textbf{Face Recognition system using OpenCV } (June , 2021) : Developed a face recognition system using OpenCV library. Implemented image processing techniques and machine learning algorithms to accurately detect and recognize faces in real-time. Contributed to enhancing security and automation in various applications.
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.em}
+\item \noindent \textbf{Languages:} Python , C , C++ , Java , HTML , CSS , JavaScript  , Data Structure Using C , SQL, C-Sharp,
+\item \noindent \textbf{Frameworks and Technologies:}
+Android development using Java and XML,
+Java.
+ MERN (MongoDB, Express.js, React, Node.js)
+\end{itemize}
+
+
+\resheading{\textbf{POSITIONS OF RESPONSIBILITY And Extracurricular} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \noindent  Active NSS Volunteer .
+\item \noindent Organized plantation drive in Rajaji National Park .
+\item \noindent  Worked with ONGC for organizing event in college.
+\item \noindent Worked with Waste Warrior to educate people about waste management.
+\item \noindent Organized freshers for my department.
+\end{itemize}
+
+\resheading{\textbf{Interest And Hobbies} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \noindent Camping  \item Trekking \item Football  
+\end{itemize}
+\end{document}
