@@ -42,11 +42,7 @@ You will need an account on [Overleaf](https://www.overleaf.com/) to compile the
 
 If you have any suggestions or improvements, feel free to create a pull request or open an issue.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 This version provides clear instructions for using Overleaf to compile the resume.
 ![image](https://github.com/user-attachments/assets/07222f52-2555-4020-8fcf-5356f04455f7)
